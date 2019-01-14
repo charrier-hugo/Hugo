@@ -1,6 +1,3 @@
-baseURL = "http://example.org/"
-enableRobotsTXT = true
-googleAnalytics = ""
+baseurl = "/"
 languageCode = "en-us"
-title = "Test"
-theme = "ananke"
+title = "Homepage"

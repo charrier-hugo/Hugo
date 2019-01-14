@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row">
+    <header id="header_landing" class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <img src="{{ .Params.logo.image }}">
+    </header>
+  </div>
+  <div class="row">
+    <div id="phrase_annonce" class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <h1><b>{{ .Params.phrase_annonce.text }}</b></h1>
+    </div>
+    <div id="contact" class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <div class="col-md-12 col-lg-12">
+        <h2 id="phrase_contact">{{ .Params.phrase_contact.text }}</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-3 col-sm-offset-1 col-sm-2 col-md-offset-1 col-md-1 col-lg-offset-1 col-lg-1">
+          <img src="{{ .Params.telephone.image }}">
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <b><a href="{{ .Params.telephone.lien }}">{{ .Params.telephone.text }}</a></b>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-3 col-sm-offset-1 col-sm-2 col-md-offset-1 col-md-1 col-lg-offset-1 col-lg-1">
+          <img src="{{ .Params.email.image }}">
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <b><a href="{{ .Params.email.lien }}">{{ .Params.email.text }}</a></b>
+        </div>
+      </div>
+      <div class="row">
+       <div class="col-xs-offset-1 col-xs-3 col-sm-offset-1 col-sm-2 col-md-offset-1 col-md-1 col-lg-offset-1 col-lg-1">
+          <img src="{{ .Params.adresse.image }}">
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <b><a href="{{ .Params.adresse.lien }}">{{ .Params.adresse.text }}</a></b>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8 text-center">
+      <a href="https://www.facebook.com/Tapissier.Atelier.Asnco/posts">
+        <img src="{{ .Params.facebook.image }}">
+      </a>
+    </div>
+  </div>
+</div>

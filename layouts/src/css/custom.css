@@ -1,0 +1,64 @@
+body,a,p,h1,h2,h3,h4 {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+	background-image: url("/img/background.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+a {
+	color: white;
+}
+
+h1 {
+	font-size: 3.5vh;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 3vh;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 2vh;
+	font-weight: 700;
+	color: white;
+	margin: 0;
+}
+
+h5 {
+	font-size: 3vh;
+	font-weight: 700;
+}
+
+#header_landing {
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+}
+
+#phrase_annonce {
+	background-color: #791311;
+	color: white;
+	text-align: center;
+}
+
+#contact {
+	background-color: #022a39;
+	color: white;
+}
+
+#phrase_contact {
+	text-align: center;
+}
+
+#form_modular {
+	background-color: rgba(255,255,255,0.8);
+}
+
+.container {
+	padding-top: 100px;
+}
